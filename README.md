@@ -2,7 +2,7 @@
 
 Simulation en **MATLAB** de la propagation d'une épidémie dans une population de 100 000 personnes, à partir d'une variante du **modèle compartimental SIR**. Cinq scénarios sont comparés : aucune réaction, rébellion humaine, remède immédiat, remède différé et mise en quarantaine.
 
-Projet réalisé en **Bachelor 1 à l'IPSA** (cours d'introduction à MATLAB), en binôme.
+Projet réalisé en **Bachelor 1 à l'IPSA** (cours d'introduction à MATLAB), en binôme. Le compte rendu complet (15 pages) est disponible ici : [rapport_simulation_zombie.pdf](docs/rapport_simulation_zombie.pdf).
 
 ![Comparaison des scénarios](figures/comparaison_zombies.png)
 
@@ -63,6 +63,14 @@ La population est répartie en compartiments : **S** (sains), **Z** (zombies), *
 2. Lancer le script : les résultats chiffrés s'affichent dans la console et les graphiques s'ouvrent dans des fenêtres séparées
 
 Les paramètres sont regroupés en haut du fichier pour tester d'autres valeurs.
+
+## Structure
+
+```
+simulation_zombie.m                 script MATLAB complet (5 scénarios + étude de gamma)
+figures/                            graphiques utilisés dans ce README
+docs/rapport_simulation_zombie.pdf  compte rendu : modélisation, résultats et analyse
+```
 
 ## Ce que j'ai appris
 
